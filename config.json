@@ -1,0 +1,64 @@
+{
+    "haipe": {
+        "client": false,
+        "server": false,
+        "status": false
+    },
+    "interface": {
+        "dataRefreshDelay": 1850,
+        "lan": [
+            {
+                "ip": "119.229.152.500"
+            }
+        ],
+        "portForward": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            39,
+            45
+        ],
+        "wan": [
+            {
+                "IP": "111.111.111.111",
+                "gatewayIP": "123.123.123.123",
+                "name": "Test 1",
+                "proxyIP": "8.8.8.8",
+                "status": true,
+                "subflow": 1
+            },
+            {
+                "IP": "",
+                "gatewayIP": "",
+                "name": "",
+                "proxyIP": "",
+                "status": false,
+                "subflow": 2
+            },
+            {
+                "IP": "",
+                "gatewayIP": "",
+                "name": "",
+                "proxyIP": "",
+                "status": false,
+                "subflow": 3
+            },
+            {
+                "IP": "",
+                "gatewayIP": "",
+                "name": "",
+                "proxyIP": "",
+                "status": false,
+                "subflow": 4
+            }
+        ]
+    }
+}
